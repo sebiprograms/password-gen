@@ -22,13 +22,14 @@ int main()
   {
     int random = rand() % 26;
     choice = (i % 2 == 0)? 1 : 0;
-    // Encryption Logic
+
+    // Randomization Logic
     if (choice == 1)
     {
-    pass[i] = alphabet[random];
+    pass[i] = alphabet_[random];
     } else if(choice == 0)
     {
-      pass[i] = 
+      pass[i] = alphabet[random];
     }    
   }
 
