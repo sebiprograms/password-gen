@@ -10,7 +10,9 @@ std::string alphabet = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K',
 
 int main() 
 {
-  // Creating Logic
+  int choice = 0;
+
+ 
   std::cout << "One password ready hot'n fresh!\n";
 
   std::string pass[8];
@@ -19,8 +21,15 @@ int main()
   for(int i = 0; i < 8; i++)
   {
     int random = rand() % 26;
+    choice = (i % 2 == 0)? 1 : 0;
+    // Encryption Logic
+    if (choice == 1)
+    {
     pass[i] = alphabet[random];
-
+    } else if(choice == 0)
+    {
+      pass[i] = 
+    }    
   }
 
 
