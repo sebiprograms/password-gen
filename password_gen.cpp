@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string>
 
-std::string alphabet = {'A'};
+std::string alphabet = {'a', 'b', 'c','d', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 
+                       'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v',
+                                                         'w', 'x', 'y', 'z'};
 
 int main() 
 {
@@ -10,13 +12,13 @@ int main()
   std::string pass[8];
 
   //assinging data
-  for(int i = 0; i < 10; i++)
+  for(int i = 0; i <= 8; i++)
   {
-    pass[i] = rand
+    pass[i];
   }
 
 
   //outputting data
-  
+
   return 0;
 }
